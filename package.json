@@ -1,20 +1,21 @@
 {
-	"name": "puppeteer",
-	"version": "1.0.0",
-	"description": "puppeteer demo.",
-	"main": "index.js",
-	"repository": "https://github.com/8823-dev/puppeteer",
-	"author": "Falcon",
-	"license": "MIT",
-	"dependencies": {
-		"puppeteer": "^22.6.0"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.6.2",
-		"@types/puppeteer": "^7.0.4",
-		"typescript": "^5.4.3"
-	},
-	"scripts": {
-		"format": "biome format --write ./src"
-	}
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "puppeteer demo.",
+  "main": "index.js",
+  "repository": "https://github.com/8823-dev/puppeteer",
+  "author": "Falcon",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.6.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.2",
+    "@types/puppeteer": "^7.0.4",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "format": "biome format ./src --write",
+    "lint": "biome lint ./src --apply"
+  }
 }
